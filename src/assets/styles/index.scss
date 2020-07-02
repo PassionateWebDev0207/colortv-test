@@ -1,0 +1,26 @@
+@import './app.scss';
+@import './sider.scss';
+@import './content.scss';
+@import './footer.scss';
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(#1890ff, 0.3);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(#1890ff, 0.5);
+}

@@ -1,0 +1,21 @@
+.sider {
+  .user-list {
+    margin-top: 10px;
+    padding-right: 5px;
+    width: 100%;
+    height: calc(100vh - 122px);
+    overflow-y: auto;
+    color: white;
+    button {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

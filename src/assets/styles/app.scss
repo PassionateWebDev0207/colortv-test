@@ -1,0 +1,16 @@
+.app {
+  aside {
+    width: 220px;
+    height: calc(100vh - 60px);
+    padding: 10px;
+  }
+  main {
+    height: calc(100vh - 60px);
+    background-color: white;
+    padding: 10px;
+  }
+  footer {
+    height: 60px;
+    padding: 0 10px;
+  }
+}
